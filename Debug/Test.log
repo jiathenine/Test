@@ -1,0 +1,111 @@
+﻿Build started 2013/10/13 21:31:12.
+     1>Project "D:\Documents\Visual Studio 2010\Projects\Test\Test\Test.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Test.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "TwoPointSeven(random_algorithm).cpp"
+         TwoPointSeven(random_algorithm).cpp
+     1>c:\program files\microsoft visual studio 10.0\vc\include\xxresult(28): error C2825: '_Fty': must be a class or namespace when followed by '::'
+                 c:\program files\microsoft visual studio 10.0\vc\include\xxresult(40) : see reference to class template instantiation 'std::tr1::_Result_type3<__formal,_Fty,_Arg0,_Arg1,_Arg2>' being compiled
+                 with
+                 [
+                     __formal=false,
+                     _Fty=randBetween (__cdecl *)(void),
+                     _Arg0=std::tr1::_Nil &,
+                     _Arg1=std::tr1::_Nil &,
+                     _Arg2=std::tr1::_Nil &
+                 ]
+                 c:\program files\microsoft visual studio 10.0\vc\include\xxresult(597) : see reference to class template instantiation 'std::tr1::_Result_of3<_Fty,_Farg0,_Farg1,_Farg2>' being compiled
+                 with
+                 [
+                     _Fty=randBetween (__cdecl *)(void),
+                     _Farg0=std::tr1::_Nil &,
+                     _Farg1=std::tr1::_Nil &,
+                     _Farg2=std::tr1::_Nil &
+                 ]
+                 c:\program files\microsoft visual studio 10.0\vc\include\xrefwrap(28) : see reference to class template instantiation 'std::tr1::_Result_of<_Ty>' being compiled
+                 with
+                 [
+                     _Ty=randBetween (__cdecl *(std::tr1::_Nil &,std::tr1::_Nil &,std::tr1::_Nil &))(void)
+                 ]
+                 c:\program files\microsoft visual studio 10.0\vc\include\xxbind1(273) : see reference to class template instantiation 'std::tr1::result_of<_Fty>' being compiled
+                 with
+                 [
+                     _Fty=randBetween (__cdecl *(std::tr1::_Nil &,std::tr1::_Nil &,std::tr1::_Nil &))(void)
+                 ]
+                 c:\program files\microsoft visual studio 10.0\vc\include\xxbind0(10) : see reference to class template instantiation 'std::tr1::_Bind3<_Callable,_Arg0,_Arg1,_Arg2>::_Return<_Barg0,_Barg1,_Barg2,_Barg3,_Barg4,_Barg5,_Barg6,_Barg7,_Barg8,_Barg9>' being compiled
+                 with
+                 [
+                     _Callable=std::tr1::_Callable_obj<randBetween (__cdecl *)(void),false>,
+                     _Arg0=randBetween (__cdecl *)(void),
+                     _Arg1=int,
+                     _Arg2=int,
+                     _Barg0=std::tr1::_Nil &,
+                     _Barg1=std::tr1::_Nil &,
+                     _Barg2=std::tr1::_Nil &,
+                     _Barg3=std::tr1::_Nil &,
+                     _Barg4=std::tr1::_Nil &,
+                     _Barg5=std::tr1::_Nil &,
+                     _Barg6=std::tr1::_Nil &,
+                     _Barg7=std::tr1::_Nil &,
+                     _Barg8=std::tr1::_Nil &,
+                     _Barg9=std::tr1::_Nil &
+                 ]
+                 c:\program files\microsoft visual studio 10.0\vc\include\functional(408) : see reference to class template instantiation 'std::tr1::_Bind_base<_Ret,_BindN>' being compiled
+                 with
+                 [
+                     _Ret=std::tr1::_Notforced,
+                     _BindN=std::tr1::_Bind3<std::tr1::_Callable_obj<randBetween (__cdecl *)(void),false>,randBetween (__cdecl *)(void),int,int>
+                 ]
+                 d:\documents\visual studio 2010\projects\test\test\twopointseven(random_algorithm).cpp(118) : see reference to class template instantiation 'std::tr1::_Bind_fty<_Fty,_Ret,_BindN>' being compiled
+                 with
+                 [
+                     _Fty=randBetween (__cdecl *)(void),
+                     _Ret=std::tr1::_Notforced,
+                     _BindN=std::tr1::_Bind3<std::tr1::_Callable_obj<randBetween (__cdecl *)(void),false>,randBetween (__cdecl *)(void),int,int>
+                 ]
+     1>c:\program files\microsoft visual studio 10.0\vc\include\xxresult(28): error C2903: 'result' : symbol is neither a class template nor a function template
+     1>c:\program files\microsoft visual studio 10.0\vc\include\xxresult(28): error C2039: 'result' : is not a member of '`global namespace''
+     1>c:\program files\microsoft visual studio 10.0\vc\include\xxresult(28): error C2143: syntax error : missing ';' before '<'
+     1>c:\program files\microsoft visual studio 10.0\vc\include\xxresult(28): error C2039: 'type' : is not a member of '`global namespace''
+     1>c:\program files\microsoft visual studio 10.0\vc\include\xxresult(28): error C2238: unexpected token(s) preceding ';'
+     1>c:\program files\microsoft visual studio 10.0\vc\include\xxresult(40): error C2039: '_Type' : is not a member of 'std::tr1::_Result_type3<__formal,_Fty,_Arg0,_Arg1,_Arg2>'
+                 with
+                 [
+                     __formal=false,
+                     _Fty=randBetween (__cdecl *)(void),
+                     _Arg0=std::tr1::_Nil &,
+                     _Arg1=std::tr1::_Nil &,
+                     _Arg2=std::tr1::_Nil &
+                 ]
+     1>c:\program files\microsoft visual studio 10.0\vc\include\xxresult(40): error C2146: syntax error : missing ';' before identifier '_Type'
+     1>c:\program files\microsoft visual studio 10.0\vc\include\xxresult(40): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files\microsoft visual studio 10.0\vc\include\xxresult(40): error C2602: 'std::tr1::_Result_of3<_Fty,_Farg0,_Farg1,_Farg2>::_Type' is not a member of a base class of 'std::tr1::_Result_of3<_Fty,_Farg0,_Farg1,_Farg2>'
+                 with
+                 [
+                     _Fty=randBetween (__cdecl *)(void),
+                     _Farg0=std::tr1::_Nil &,
+                     _Farg1=std::tr1::_Nil &,
+                     _Farg2=std::tr1::_Nil &
+                 ]
+                 c:\program files\microsoft visual studio 10.0\vc\include\xxresult(40) : see declaration of 'std::tr1::_Result_of3<_Fty,_Farg0,_Farg1,_Farg2>::_Type'
+                 with
+                 [
+                     _Fty=randBetween (__cdecl *)(void),
+                     _Farg0=std::tr1::_Nil &,
+                     _Farg1=std::tr1::_Nil &,
+                     _Farg2=std::tr1::_Nil &
+                 ]
+     1>c:\program files\microsoft visual studio 10.0\vc\include\xxresult(40): error C2868: 'std::tr1::_Result_of3<_Fty,_Farg0,_Farg1,_Farg2>::_Type' : illegal syntax for using-declaration; expected qualified-name
+                 with
+                 [
+                     _Fty=randBetween (__cdecl *)(void),
+                     _Farg0=std::tr1::_Nil &,
+                     _Farg1=std::tr1::_Nil &,
+                     _Farg2=std::tr1::_Nil &
+                 ]
+     1>Done Building Project "D:\Documents\Visual Studio 2010\Projects\Test\Test\Test.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.36

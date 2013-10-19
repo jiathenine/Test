@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="vector">
+      <UniqueIdentifier>{15d46c6b-c4ca-42da-a652-1282f38c98ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data_test">
+      <UniqueIdentifier>{9388974d-37b3-46f6-9ced-ba434030ecfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="polygon">
+      <UniqueIdentifier>{09c0ad72-2e4d-4f8f-91e9-b4635033e60a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="multipass">
+      <UniqueIdentifier>{2b193ca1-a935-4aa7-b50e-c1c021b74f5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FunctionPointer">
+      <UniqueIdentifier>{dc39eef0-ee08-4e0c-a79b-d292e917a4b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStructExercise">
+      <UniqueIdentifier>{f1e183fc-48f4-4138-8b9f-4198c4d57c47}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CachedObj.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>vector</Filter>
+    </ClInclude>
+    <ClInclude Include="vectorMain.h">
+      <Filter>vector</Filter>
+    </ClInclude>
+    <ClInclude Include="template_polygon.h">
+      <Filter>polygon</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_test.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="data_test.cpp">
+      <Filter>data_test</Filter>
+    </ClCompile>
+    <ClCompile Include="polygon_main.cpp">
+      <Filter>polygon</Filter>
+    </ClCompile>
+    <ClCompile Include="multipass_test.cpp">
+      <Filter>multipass</Filter>
+    </ClCompile>
+    <ClCompile Include="functionPointer.cpp">
+      <Filter>FunctionPointer</Filter>
+    </ClCompile>
+    <ClCompile Include="vectorMain.cpp">
+      <Filter>vector</Filter>
+    </ClCompile>
+    <ClCompile Include="OnePointOne.cpp">
+      <Filter>DataStructExercise</Filter>
+    </ClCompile>
+    <ClCompile Include="TwoPointSeven(random_algorithm).cpp">
+      <Filter>DataStructExercise</Filter>
+    </ClCompile>
+    <ClCompile Include="Reflect.cpp">
+      <Filter>FunctionPointer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+</Project>
