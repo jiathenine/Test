@@ -14,7 +14,7 @@ public:
 			iterator it = *this;
 			for(std::size_t i = 0;i != sz;++i)
 				it.t = it->CachedObj<T>::next;
-			return it
+			return it;
 		}
 		iterator operator+=(std::size_t sz)
 		{
